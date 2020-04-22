@@ -1,6 +1,6 @@
 # Arrow-Parquet-Go
 
-This is a pure-go implementation for reading and writing parquest files into Arrow Record batches. 
+This is a pure-go implementation for reading and writing parquet files into Arrow Record batches. 
 
 ### Install
 ``` go get github.com/mindhash/arrow-parquet-go ```

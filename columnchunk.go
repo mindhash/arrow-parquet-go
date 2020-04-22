@@ -1,5 +1,5 @@
 /*
- * Minio Cloud Storage, (C) 2019 Minio, Inc.
+ *
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,7 +16,7 @@
 
 package parquet
 
-import "github.com/minio/parquet-go/gen-go/parquet"
+import "github.com/mindhash/apache-parquet-go/gen-go/parquet"
 
 type columnChunk struct {
 	Pages       []*page

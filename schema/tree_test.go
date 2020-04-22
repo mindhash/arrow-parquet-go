@@ -1,5 +1,5 @@
 /*
- * Minio Cloud Storage, (C) 2019 Minio, Inc.
+ * 
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -19,7 +19,7 @@ package schema
 import (
 	"testing"
 
-	"github.com/minio/parquet-go/gen-go/parquet"
+	"github.com/mindhash/arrow-parquet-go/gen-go/parquet"
 )
 
 func TestTreeSet(t *testing.T) {

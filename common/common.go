@@ -7,7 +7,7 @@ import (
 	"io/ioutil"
 
 	"github.com/golang/snappy"
-	"github.com/minio/parquet-go/gen-go/parquet"
+	"github.com/mindhash/arrow-parquet-go/gen-go/parquet"
 	"github.com/pierrec/lz4"
 )
 

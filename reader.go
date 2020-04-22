@@ -1,5 +1,5 @@
 /*
- * Minio Cloud Storage, (C) 2018 Minio, Inc.
+ * 
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -23,7 +23,7 @@ import (
 	"strings"
 
 	"git.apache.org/thrift.git/lib/go/thrift"
-	"github.com/minio/parquet-go/gen-go/parquet"
+	"github.com/mindhash/arrow-parquet-go/gen-go/parquet"
 
 	"github.com/apache/arrow/go/arrow"
 	"github.com/apache/arrow/go/arrow/array"
@@ -265,6 +265,7 @@ func NewReader(getReaderFunc GetReaderFunc) (*Reader, error) {
 	for _, element := range schemaElements {
 		nameList = append(nameList, element.Name)
 	}
+
 	// fix: need a better way to manage length
 	// name list also has parent name elements of hierarchical record
 	// so not able to use len(nameList)

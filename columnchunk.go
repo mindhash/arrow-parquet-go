@@ -16,7 +16,7 @@
 
 package parquet
 
-import "github.com/mindhash/apache-parquet-go/gen-go/parquet"
+import "github.com/mindhash/arrow-parquet-go/gen-go/parquet"
 
 type columnChunk struct {
 	Pages       []*page

@@ -2,10 +2,10 @@
 
 This is a pure-go implementation for reading and writing parquet files into Arrow Record batches. 
 
-### Install
+## Install
 ``` go get github.com/mindhash/arrow-parquet-go ```
 
-### Usage
+## Usage
 
 For Reading a file: 
 
@@ -38,6 +38,6 @@ For Reading a file:
 ```
 
 
-### Attribution
+#### Attribution
 This is modified version of [this repo](https://github.com/minio/parquet-go) with support Arrow batches.
 

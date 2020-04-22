@@ -38,7 +38,6 @@ For Reading a file:
 ```
 
 
-
 ### Attribution
 This is modified version of [this repo](https://github.com/minio/parquet-go) with support Arrow batches.
 

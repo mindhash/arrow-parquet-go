@@ -1,5 +1,5 @@
 /*
- * 
+ *
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -225,18 +225,7 @@ func toArrowCol(mem memory.Allocator, values []interface{}, arrowType arrow.Data
 
 }
 
-// Value - denotes column value
-// type Value struct {
-// 	Value interface{}
-// 	Type  parquet.Type
-// }
-
-// MarshalJSON - encodes to JSON data
-// func (value Value) MarshalJSON() (data []byte, err error) {
-// 	return json.Marshal(value.Value)
-// }
-
-// Reader - denotes parquet file.
+// Reader - Reader for parquet file.
 type Reader struct {
 	getReaderFunc  GetReaderFunc
 	schemaElements []*parquet.SchemaElement
